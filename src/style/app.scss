@@ -1,0 +1,32 @@
+@import './player';
+@import './song';
+@import './library';
+@import './nav';
+
+body{
+font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+h3,h4{
+    font-weight: 400;
+    color: gray;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3{
+    color:rgb(54, 54, 54)
+}
+
+.App{
+ transition: all 1.9s ease;
+}
+
+.library-active{
+    margin-left: 40%;
+}
